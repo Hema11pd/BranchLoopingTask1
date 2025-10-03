@@ -1,0 +1,9 @@
+C:\Users\hpyad>git config --global user.name "Hema11pd"
+
+C:\Users\hpyad>git config --global user.email "hpyadha@gmail.com"
+
+C:\Users\hpyad>git config --global --list
+user.name=Hema11pd
+user.email=hpyadha@gmail.com
+
+C:\Users\hpyad>

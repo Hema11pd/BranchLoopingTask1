@@ -1,0 +1,55 @@
+package task;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.sql.SQLOutput;
+
+public class Trial {
+    public static void main(String[] args) throws IOException {
+        String filePathString = "C:\\Users\\hpyad\\OneDrive\\Documents\\folder";
+        Path filePath = Paths.get(filePathString);
+//Folder Creation
+        if (!Files.exists(filePath)) {
+            try {
+                Files.createDirectory(filePath);
+                System.out.println("Folder Created successfully");
+            } catch (Exception e) {
+                System.out.println("Error" + e);
+            }
+        } else {
+            System.out.println("Folder Already Exists");
+        }
+//File creation and write hello world to the file
+        for (int i = 1; i <= 10; i++) {
+            Path fileNew = filePath.resolve("file" + i + ".txt");
+            try {
+                Files.write(fileNew, "Hello World".getBytes());
+                System.out.println("file " + i + "written");
+            } catch (Exception e) {
+                System.out.println("Issue in File writing");
+            }
+        }
+
+//check for the file exists and delete the file
+
+        for (int i = 1; i <= 10; i++) {
+            Path fileNew = filePath.resolve("file" + i + ".txt");
+            if (Files.exists(fileNew)) {
+                try {
+                    Files.delete(fileNew);
+                } catch (Exception e) {
+                    System.out.println("file delete did not complete");
+
+                }
+            } else {
+                System.out.println("file did not exist for deletion");
+            }
+        }
+        System.out.println("file deleted");
+
+
+    }
+}
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<header>
+<link rel="styleSheet" href="resu.css"/>
+</header>
+<body>
+<div class="container">
+<div class="grid-1">
+  <nav>
+    <h1>
+        <p>
+            Dave <br/> Wilson
+            <hr/>
+        </p></h1>
+    <h2>
+        <p>
+            Radio and Television<br/>
+            Play-by-Play Announcer
+        </p>
+    </h2>
+
+    <div class="left-side-nav">
+       
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#demo">DEMO</a></li>
+            <li><a href="#reviews">REVIEWS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    </div>
+<div class="grid-2">
+    <div class="main" id="about">
+        <h1>About.</h1>
+    <p>Radio and television broadcaster Dave Wilson is a familiar play-by-play<br/>
+              voice on college, pro and high school sports coverage in and around <br/>
+              Northeast Ohio. Whatever the venue or sport he covers, Wilson brings a <br/>
+              versatile resume of broadcasting experience.<br/>
+              <br/>
+              A long-time resident of Chagrin Falls, Ohio, Wilson has built an<br/>
+              impressive career calling a myriad of sports on radio and television over <br/>
+              the years.<br/>
+              </br>
+              <a class="button" type="text" href="code.html" target="_blank"><b>Read Full Bio</b></a>
+    </p>
+     </div>
+    <div class="main" id="experience">
+        <h1>Experience</h1>
+    <p>Dave Wilson has a wide range of experience with numerous teams,<br/> 
+        schools, organizations and outlets.Through these diverse experiences, <br/> 
+        he has developed valuable expertise calling a variety of sports on radio, <br/> 
+        television and streaming platforms.<br/>
+        </br>
+        <a class="button" type="text" href="code.html" target="_blank"><b>View Resume</b></a>
+    </p>
+ </div>
+   
+    <div class="main" id="demo">
+        <h1>Demo</h1>
+    <p>Whether he is calling a game on a college radio network or standing in<br/> 
+         front of the camera welcoming a live viewing audience to the field or <br/> 
+         arena, Dave Wilson brings clarity, focus and authority to his broadcast.<br/> 
+        Click the icons to hear or watch samples of his play-by-play work.<br/> 
+    </p>
+    </div>
+    
+    <div class="main" id="reviews">
+        <h1>Reviews</h1>
+    <p>Radio and television broadcaster Dave Wilson is a familiar play-by-play<br/>
+        voice on college, pro and high school sports coverage in and around <br/>
+        Northeast Ohio. Whatever the venue or sport he covers, Wilson brings a <br/>
+        versatile resume of broadcasting experience.<br/>
+        <br/>
+        A long-time resident of Chagrin Falls, Ohio, Wilson has built an<br/>
+        impressive career calling a myriad of sports on radio and television over <br/>
+        the years.<br/>
+        <br/>
+       
+    </p>
+     </div>
+   
+    <div class="main" id="contact">
+        <h1>Contact</h1>
+    <p>If you’re looking for a mature, talented, and friendly play-by-play <br/>
+        announcer, Dave can make your production sound great.Please fill out <br/> 
+        the form below, and he’ll reach out right away.<br/>
+    </p>
+    <form method="post">
+    
+        <input type=text id="name" placeholder="Name*"/></br>
+        <input type=email id="email" placeholder="Email*"/></br>
+        <textarea type=text placeholder="How can we help?*" rows="5"></textarea>
+       
+    </form>
+</div>
+   
+</div>
+</div>
+</body>
+
+</html>
+
+*{
+    margin:0;
+    padding:0;
+    
+   
+}
+
+.container{
+    max-width:960px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 16px;
+ 
+
+}
+.grid-1{
+    background-color: rgb(4, 4, 13);
+    padding:10px;
+    color: white;
+
+
+}
+.grid-1 nav{
+    position: fixed;
+ 
+}
+.grid-1 h1{
+    font-size:32px;
+}
+
+.grid-1 h2{
+    font-size:13px;
+    text-align: center;
+}
+
+
+
+.left-side-nav  li{
+    margin:45%;
+    list-style:none;  
+    color:antiquewhite;
+    
+
+}
+
+.left-side-nav a{
+    text-decoration:none;
+}
+
+.left-side-nav a:hover{
+    color: pink;
+}
+
+.grid-2
+{
+    margin:150px auto;
+    padding: 20px;
+   
+    
+
+   
+}
+.grid-2 h1{
+    font-size:50px;
+
+}
+
+.main{
+    margin: 30% auto;
+    padding: 50px;
+    border-left: 2px solid skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+
+}
+.button{
+    
+    padding:10px;
+    text-decoration: none;
+    font-size:12px;
+    color:white;
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+

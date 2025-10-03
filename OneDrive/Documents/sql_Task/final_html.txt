@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="finalc.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+        position: relative; 
+    }
+    </style>
+  
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
+<div class="main">
+<div class="grid-1">
+<nav class="navbar navbar-dark">
+    
+  <div class="class2">
+    <ul class="navbar-nav">
+        <li class="nav-item"> <h1>
+            <p>
+                Dave <br/> Wilson
+                <hr/>
+            </p></h1>
+       </li>
+        <li class="nav-item">
+            <h2>    
+                <p>
+                    Radio and Television<br/>
+                    Play-by-Play Announcer
+                </p>
+            </h2>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">EXPERIENCE</a></li>
+        <li class="nav-item"><a class="nav-link" href="#demo">DEMO</a></li>
+        <li class="nav-item"><a class="nav-link" href="#review">REVIEW</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+      
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+<div class="grid-2">
+    <div id="firstpage" class="details">
+      
+       <p> <b> Prepared.<br/>
+            Polished.<br/>
+          Professional </b>.
+         
+         </p>
+      
+    
+      
+     </div>
+   
+
+<div id="about" class="details" style="padding:100px 20px;">
+  <h1>About.</h1>
+  <p>Radio and television broadcaster Dave Wilson is a familiar play-by-play<br/>
+    voice on college, pro and high school sports coverage in and around <br/>
+    Northeast Ohio. Whatever the venue or sport he covers, Wilson brings a <br/>
+    versatile resume of broadcasting experience.<br/>
+    <br/>
+    A long-time resident of Chagrin Falls, Ohio, Wilson has built an<br/>
+    impressive career calling a myriad of sports on radio and television over <br/>
+    the years.<br/>
+    </br>
+    <a class="button" type="text" href="https://dave-wilson.net/pdf/david-wilson-bio.pdf" target="_blank"><b>Read Full Bio &gt;</b></a>
+  
+</p>
+</div>
+
+<div id="experience" class="details" style="padding:100px 20px;">
+  <h1>Experience.</h1>
+  <p>Dave Wilson has a wide range of experience with numerous teams,<br/> 
+    schools, organizations and outlets.Through these diverse experiences, <br/> 
+    he has developed valuable expertise calling a variety of sports on radio, <br/> 
+    television and streaming platforms.<br/>
+    </br>
+    <a class="button" type="text" href="https://dave-wilson.net/pdf/david-wilson-resume.pdf" target="_blank"><b>View Resume &gt;</b></a>
+</div>
+
+<div id="demo" class="details" style="padding:100px 20px;">
+  <h1>Demo</h1>
+  <p>Whether he is calling a game on a college radio network or standing in<br/> 
+    front of the camera welcoming a live viewing audience to the field or <br/> 
+    arena, Dave Wilson brings clarity, focus and authority to his broadcast.<br/> 
+   Click the icons to hear or watch samples of his play-by-play work.<br/> 
+</p>
+</div>
+<div id="review" class="details" style="padding:100px 20px;">
+    <h1>Review</h1>
+    <p>
+      <q>There is no question about David’s broadcasting chops – you hear it<br/>
+      immediately and are connected to his broadcasts. More importantly, I <br/>
+      have seen his dedication to the craft firsthand. No matter who you are <br/>
+      or where you visit with David, you get an elite level of professionalism<br/>
+       and his full attention.</q>
+    </p>
+    <p><q>Dave is the consummate professional: always prepared, knowledgeable, <br/>
+       and continually working on his craft of my best and most enjoyable broadcasts<Br/>
+        have occurred while sharing the booth with Dave.  </q></p>
+  </div>
+  <div id="contact" class="details" style="padding:100px 20px;">
+    <h1>Contact</h1>
+    <p>If you’re looking for a mature, talented, and friendly play-by-play <br/>
+        announcer, Dave can make your production sound great.Please fill out <br/> 
+        the form below, and he’ll reach out right away.<br/>
+    </p>
+    <form method="post">
+    
+        <input type=text id="name" placeholder="Name*"/></br>
+        <input type=email id="email" placeholder="Email*"/></br>
+        <textarea type=text placeholder="How can we help?*" rows="5" cols = "40"></textarea>
+       
+    </form>
+   
+    
+</div>
+   
+</div>
+</div>
+<footer>
+  &copy; copyright 2024|All Right Reserved |website by HPD
+</footer>
+
+</body>
+</html>
+
+
+css:
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    max-width:1600px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 16px;
+
+
+}
+
+
+.grid-1{
+    background-color: rgb(4, 4, 13);
+    padding:10px;
+    color: white;
+
+}
+
+.nav-item h1{
+    font-size:32px;
+}
+
+.nav-item h2{
+    font-size:13px;
+    text-align: center;
+}
+.navbar{
+    position:fixed;
+    
+}
+
+
+.navbar a{
+    color: skyblue;
+    margin:25px;
+}
+
+.navbar a:hover{
+    color: white;
+
+}
+
+.grid-2
+{
+   
+   padding:20px;
+   background-color: rgb(229, 133, 99);
+  
+   
+}
+
+
+.details{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+  
+  
+    
+
+}
+.button{
+    
+    padding:10px;
+    text-decoration: none;
+    font-size:12px;
+    color:white;
+    background-color: skyblue;
+}
+input{
+    padding:5px;
+    margin:5px;
+}
+
+#firstpage{
+    margin-top: 20% ;
+    margin-bottom: 40%;
+    padding:20px;
+    font-size:64px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images1/pens.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+   
+}
+
+
+
+#about{
+  
+    margin-top: 30% ;
+    margin-bottom: 40%;
+    padding:20px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images1/download.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+   
+ 
+
+}
+
+#experience{
+   
+    margin-top: 30% ;
+    margin-bottom: 40%;
+    padding:20px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images1/download.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+
+}
+
+#demo{
+   
+    margin-top: 30% ;
+
+    margin-bottom: 40%;
+    padding:20px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images1/download.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+
+
+}
+
+
+#review{
+   
+    margin-top: 30% ;
+    margin-bottom: 40%;
+    padding:20px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images1/download.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+
+}
+
+#contact{
+      
+    margin-top: 30% ;
+    margin-bottom: 40%;
+    padding:20px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images1/download.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+
+}
+
+footer{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+}
+
+
+
+
+
